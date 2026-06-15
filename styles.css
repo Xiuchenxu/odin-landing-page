@@ -1,0 +1,142 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    color: black;
+    font-weight: 900;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    color: #F9FAF8;
+    padding: 60px;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sub {
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.top {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sub.button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+
+
+}
+
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+}
+
+.group p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+
+}
+
+.IQ {
+    display: flex;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+}
+
+.Thor {
+    text-align: right;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call {
+        display: flex;
+        margin: 100px;
+        align-self: center;
+        background-color: #3882f6;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 50px;
+        border-radius: 8px;
+
+}
+
+.call button {
+  align-self: center;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+}
